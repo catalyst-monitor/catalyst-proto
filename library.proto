@@ -40,6 +40,7 @@ message Log {
     string message = 4;
     string stack_trace = 5;
     repeated LogArg log_args = 6;
+    string raw_message = 7;
 }
 
 message PageView {

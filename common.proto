@@ -9,4 +9,5 @@ message Path {
     }
     string pattern = 1;
     repeated Param params = 2;
+    string raw_path = 3;
 }
