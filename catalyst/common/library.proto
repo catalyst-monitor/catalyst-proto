@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package xyz.bliu.codedoctor;
 
-import "common.proto";
+import "catalyst/common/common.proto";
 import "google/protobuf/timestamp.proto";
 import "google/protobuf/duration.proto";
 
